@@ -6,7 +6,8 @@
 </template>
 
 <script>
-  import Component1 from '@/components/Component1'
+  // Wrong address. Change @ to ..
+  import Component1 from '../components/Component1'
 
   export default {
     name: 'Challenge2',
