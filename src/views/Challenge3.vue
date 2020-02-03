@@ -1,12 +1,14 @@
 <template>
   <div class="challenge">
     <h1>Bug Challenge 3</h1>
-    <component-2 :Msg='msg' />
+    <!--    ":Msg" should match Component2.vue as ":msg"-->
+    <component-2 :msg='msg' />
   </div>
 </template>
 
 <script>
-  import Component2 from '@/components/Component2'
+  // Change @ to ..
+  import Component2 from '../components/Component2'
 
   export default {
     name: 'Challenge2',
