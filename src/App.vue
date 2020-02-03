@@ -8,6 +8,9 @@
       <router-link to="/final">Final</router-link>
     </div>
     <router-view/>
+    <div class="bottom-insects">
+      <img alt="Insect" src="./assets/insect.jpeg">
+    </div>
   </div>
 </template>
 
@@ -31,5 +34,12 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.bottom-insects {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  zoom: 20%;
 }
 </style>
